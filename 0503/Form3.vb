@@ -27,14 +27,30 @@
     End Sub
 
     Private Sub button4_Click(sender As Object, e As EventArgs) Handles button4.Click
-        Dim Form7 As New Form7()
-        Form7.Show()
+        Dim Form10 As New Form10()
+        Form10.Show()
         Me.Hide()
     End Sub
 
     Private Sub button1_Click(sender As Object, e As EventArgs) Handles button1.Click
-        Dim Form1 As New Form1()
-        Form1.Show()
+        Dim result As DialogResult = MessageBox.Show("是否要登出？", "登出", MessageBoxButtons.YesNo)
+
+        ' 如果用戶選擇 Yes，則關閉視窗
+        If result = DialogResult.Yes Then
+            Form1.Show()
+            Me.Hide()
+        End If
+
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim Form9 As New Form9()
+        Form9.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Label6.Text = Format(Date.Now, "Long Time")
+        Label7.Text = Date.Now.ToString("dddd") & " - " & Date.Now.ToString("MMM dd, yyyy")
     End Sub
 End Class

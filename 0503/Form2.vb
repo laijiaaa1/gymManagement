@@ -43,4 +43,8 @@
         Form3.Show()
         Me.Hide()
     End Sub
+
+    Private Sub panel2_Paint(sender As Object, e As PaintEventArgs) Handles panel2.Paint
+
+    End Sub
 End Class

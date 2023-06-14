@@ -1,10 +1,10 @@
 ﻿Imports MySql.Data.MySqlClient
 Module Module2
     Public Function strconnection() As MySqlConnection
-        Return New MySqlConnection("server=192.168.63.166; database=ggym; username=janet; password=gymmanagementsystem;convert zero datetime=True")
+        Return New MySqlConnection("server=xingdou.sytes.net;port=3306 ; database=ggym; username=janet; password=gymmanagementsystem;convert zero datetime=True")
     End Function
     Public strcon As MySqlConnection = strconnection()
-    Public result As String
+    Public result As String                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
     Public cmd As New MySqlCommand
     Public da As New MySqlDataAdapter
     Public dt As New DataTable
@@ -47,7 +47,7 @@ Module Module2
         End Try
     End Sub
 
-    Public Sub update1(ByVal sql As String)
+    Public Sub updates(ByVal sql As String)
         Try
             strcon.Open()
             With cmd
@@ -86,4 +86,36 @@ Module Module2
             strcon.Close()
         End Try
     End Sub
+    Public Sub search(ByVal sql As String)
+        Try
+            strcon.Open()
+            With cmd
+                .Connection = strcon
+                .CommandText = sql
+                result = cmd.ExecuteNonQuery
+                da.SelectCommand = cmd
+                Dim dt As New DataTable()
+                da.Fill(dt)
+                If result = 0 Then
+                    MessageBox.Show("failed to search", "error", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                Else
+                    If dt.Rows.Count > 0 Then
+                        MessageBox.Show("Success", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    Else
+                        MessageBox.Show("No data found", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    End If
+                End If
+            End With
+        Catch ex As Exception
+
+            MessageBox.Show(ex.Message)
+        Finally
+            strcon.Close()
+        End Try
+
+    End Sub
+
+
 End Module
+
+

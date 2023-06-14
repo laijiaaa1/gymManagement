@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form 覆寫 Dispose 以清除元件清單。
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     '注意: 以下為 Windows Form 設計工具所需的程序
     '可以使用 Windows Form 設計工具進行修改。
     '請勿使用程式碼編輯器進行修改。
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.button1 = New System.Windows.Forms.Button()
         Me.label5 = New System.Windows.Forms.Label()
@@ -43,10 +43,10 @@ Partial Class Form1
         Me.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.button1.Font = New System.Drawing.Font("Arial monospaced for SAP", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.button1.Location = New System.Drawing.Point(777, 560)
+        Me.button1.Location = New System.Drawing.Point(874, 635)
         Me.button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.button1.Name = "button1"
-        Me.button1.Size = New System.Drawing.Size(301, 51)
+        Me.button1.Size = New System.Drawing.Size(339, 58)
         Me.button1.TabIndex = 22
         Me.button1.Text = "Login"
         Me.button1.UseVisualStyleBackColor = False
@@ -54,95 +54,97 @@ Partial Class Form1
         'label5
         '
         Me.label5.AutoSize = True
-        Me.label5.Font = New System.Drawing.Font("Arial monospaced for SAP", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label5.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label5.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.label5.Location = New System.Drawing.Point(1008, 462)
+        Me.label5.Location = New System.Drawing.Point(1134, 524)
         Me.label5.Name = "label5"
-        Me.label5.Size = New System.Drawing.Size(70, 23)
+        Me.label5.Size = New System.Drawing.Size(82, 28)
         Me.label5.TabIndex = 21
         Me.label5.Text = "Clear"
         '
         'checkBox1
         '
         Me.checkBox1.AutoSize = True
-        Me.checkBox1.Font = New System.Drawing.Font("Arial monospaced for SAP", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.checkBox1.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.checkBox1.ForeColor = System.Drawing.SystemColors.Control
-        Me.checkBox1.Location = New System.Drawing.Point(777, 462)
+        Me.checkBox1.Location = New System.Drawing.Point(874, 524)
         Me.checkBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.checkBox1.Name = "checkBox1"
-        Me.checkBox1.Size = New System.Drawing.Size(188, 27)
+        Me.checkBox1.Size = New System.Drawing.Size(216, 32)
         Me.checkBox1.TabIndex = 20
         Me.checkBox1.Text = "Show Password" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.checkBox1.UseVisualStyleBackColor = True
         '
         'textBox2
         '
-        Me.textBox2.Location = New System.Drawing.Point(777, 402)
+        Me.textBox2.Font = New System.Drawing.Font("Arial monospaced for SAP", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.textBox2.Location = New System.Drawing.Point(874, 456)
         Me.textBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textBox2.Name = "textBox2"
-        Me.textBox2.Size = New System.Drawing.Size(301, 25)
+        Me.textBox2.Size = New System.Drawing.Size(338, 30)
         Me.textBox2.TabIndex = 19
         Me.textBox2.UseSystemPasswordChar = True
         '
         'textBox1
         '
-        Me.textBox1.Location = New System.Drawing.Point(777, 320)
+        Me.textBox1.Font = New System.Drawing.Font("Arial monospaced for SAP", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.textBox1.Location = New System.Drawing.Point(874, 363)
         Me.textBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textBox1.Name = "textBox1"
-        Me.textBox1.Size = New System.Drawing.Size(301, 25)
+        Me.textBox1.Size = New System.Drawing.Size(338, 30)
         Me.textBox1.TabIndex = 18
         '
         'label4
         '
         Me.label4.AutoSize = True
-        Me.label4.Font = New System.Drawing.Font("Arial monospaced for SAP", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label4.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label4.ForeColor = System.Drawing.SystemColors.Control
-        Me.label4.Location = New System.Drawing.Point(772, 370)
+        Me.label4.Location = New System.Drawing.Point(868, 419)
         Me.label4.Name = "label4"
-        Me.label4.Size = New System.Drawing.Size(118, 23)
+        Me.label4.Size = New System.Drawing.Size(138, 28)
         Me.label4.TabIndex = 17
         Me.label4.Text = "Password:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'label3
         '
         Me.label3.AutoSize = True
-        Me.label3.Font = New System.Drawing.Font("Arial monospaced for SAP", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label3.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label3.ForeColor = System.Drawing.SystemColors.Control
-        Me.label3.Location = New System.Drawing.Point(772, 289)
+        Me.label3.Location = New System.Drawing.Point(868, 328)
         Me.label3.Name = "label3"
-        Me.label3.Size = New System.Drawing.Size(106, 23)
+        Me.label3.Size = New System.Drawing.Size(124, 28)
         Me.label3.TabIndex = 16
         Me.label3.Text = "Account:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'label2
         '
         Me.label2.AutoSize = True
-        Me.label2.Font = New System.Drawing.Font("Arial monospaced for SAP", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label2.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.label2.Location = New System.Drawing.Point(796, 206)
+        Me.label2.Location = New System.Drawing.Point(896, 233)
         Me.label2.Name = "label2"
-        Me.label2.Size = New System.Drawing.Size(262, 23)
+        Me.label2.Size = New System.Drawing.Size(306, 28)
         Me.label2.TabIndex = 15
         Me.label2.Text = "Gym Management System" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'label1
         '
         Me.label1.AutoSize = True
-        Me.label1.Font = New System.Drawing.Font("Arial monospaced for SAP", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.label1.Font = New System.Drawing.Font("Arial monospaced for SAP", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.label1.ForeColor = System.Drawing.SystemColors.Control
-        Me.label1.Location = New System.Drawing.Point(821, 109)
+        Me.label1.Location = New System.Drawing.Point(884, 128)
         Me.label1.Name = "label1"
-        Me.label1.Size = New System.Drawing.Size(210, 69)
+        Me.label1.Size = New System.Drawing.Size(279, 92)
         Me.label1.TabIndex = 14
         Me.label1.Text = "Login"
         '
         'pictureBox2
         '
         Me.pictureBox2.Image = Global._0503.My.Resources.Resources.close
-        Me.pictureBox2.Location = New System.Drawing.Point(1284, 11)
+        Me.pictureBox2.Location = New System.Drawing.Point(1444, 12)
         Me.pictureBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.pictureBox2.Name = "pictureBox2"
-        Me.pictureBox2.Size = New System.Drawing.Size(29, 32)
+        Me.pictureBox2.Size = New System.Drawing.Size(33, 36)
         Me.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.pictureBox2.TabIndex = 23
         Me.pictureBox2.TabStop = False
@@ -150,20 +152,20 @@ Partial Class Form1
         'pictureBox1
         '
         Me.pictureBox1.Image = Global._0503.My.Resources.Resources.Picture4
-        Me.pictureBox1.Location = New System.Drawing.Point(-5, -75)
+        Me.pictureBox1.Location = New System.Drawing.Point(-6, -85)
         Me.pictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.pictureBox1.Name = "pictureBox1"
-        Me.pictureBox1.Size = New System.Drawing.Size(494, 895)
+        Me.pictureBox1.Size = New System.Drawing.Size(556, 1014)
         Me.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.pictureBox1.TabIndex = 13
         Me.pictureBox1.TabStop = False
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 17.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1325, 768)
+        Me.ClientSize = New System.Drawing.Size(1491, 800)
         Me.Controls.Add(Me.pictureBox2)
         Me.Controls.Add(Me.button1)
         Me.Controls.Add(Me.label5)
@@ -175,8 +177,10 @@ Partial Class Form1
         Me.Controls.Add(Me.label2)
         Me.Controls.Add(Me.label1)
         Me.Controls.Add(Me.pictureBox1)
+        Me.Font = New System.Drawing.Font("Arial monospaced for SAP", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         CType(Me.pictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

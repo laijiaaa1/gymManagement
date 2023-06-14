@@ -5,19 +5,17 @@ Public Class Form1
     Dim objdatapter As New MySqlDataAdapter
     Dim dtable As New DataTable
 #End Region
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 
     Private Sub button1_Click(sender As Object, e As EventArgs) Handles button1.Click
-        objdatapter = New MySqlDataAdapter("select username,password from manager where username='" & textBox1.Text & "' AND password='" & textBox2.Text & "'", myconection.open)
+        objdatapter = New MySqlDataAdapter("select  ManagerID ,Password from manager where ManagerID='" & textBox1.Text & "' AND Password='" & textBox2.Text & "'", myconection.open)
         dtable.Clear()
         objdatapter.Fill(dtable)
         If dtable.Rows.Count = Nothing Then
-            MsgBox("nothing username or password")
+            MsgBox("nothing ManagerID or Password")
         Else
-            Dim Form3 As New Form2()
-            Form3.Show()
+            Dim Form12 As New Form12()
+            Form12.Show()
             Me.Hide()
         End If
         myconection.close()
@@ -39,5 +37,9 @@ Public Class Form1
     Private Sub label5_Click(sender As Object, e As EventArgs) Handles label5.Click
         textBox1.Text = ""
         textBox2.Text = ""
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
