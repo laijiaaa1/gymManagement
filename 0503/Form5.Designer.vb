@@ -128,7 +128,7 @@ Partial Class Form5
         '
         Me.label15.AutoSize = True
         Me.label15.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label15.ForeColor = System.Drawing.Color.Black
         Me.label15.Location = New System.Drawing.Point(309, 132)
         Me.label15.Name = "label15"
         Me.label15.Size = New System.Drawing.Size(110, 28)
@@ -379,7 +379,7 @@ Partial Class Form5
         '
         Me.label14.AutoSize = True
         Me.label14.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label14.ForeColor = System.Drawing.Color.Black
         Me.label14.Location = New System.Drawing.Point(309, 645)
         Me.label14.Name = "label14"
         Me.label14.Size = New System.Drawing.Size(166, 28)
@@ -390,7 +390,7 @@ Partial Class Form5
         '
         Me.label13.AutoSize = True
         Me.label13.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label13.ForeColor = System.Drawing.Color.Black
         Me.label13.Location = New System.Drawing.Point(309, 588)
         Me.label13.Name = "label13"
         Me.label13.Size = New System.Drawing.Size(194, 28)
@@ -401,7 +401,7 @@ Partial Class Form5
         '
         Me.label12.AutoSize = True
         Me.label12.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label12.ForeColor = System.Drawing.Color.Black
         Me.label12.Location = New System.Drawing.Point(309, 531)
         Me.label12.Name = "label12"
         Me.label12.Size = New System.Drawing.Size(180, 28)
@@ -412,7 +412,7 @@ Partial Class Form5
         '
         Me.label11.AutoSize = True
         Me.label11.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label11.ForeColor = System.Drawing.Color.Black
         Me.label11.Location = New System.Drawing.Point(309, 474)
         Me.label11.Name = "label11"
         Me.label11.Size = New System.Drawing.Size(208, 28)
@@ -432,7 +432,7 @@ Partial Class Form5
         '
         Me.label10.AutoSize = True
         Me.label10.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label10.ForeColor = System.Drawing.Color.Black
         Me.label10.Location = New System.Drawing.Point(309, 417)
         Me.label10.Name = "label10"
         Me.label10.Size = New System.Drawing.Size(236, 28)
@@ -443,7 +443,7 @@ Partial Class Form5
         '
         Me.label9.AutoSize = True
         Me.label9.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label9.ForeColor = System.Drawing.Color.Black
         Me.label9.Location = New System.Drawing.Point(309, 360)
         Me.label9.Name = "label9"
         Me.label9.Size = New System.Drawing.Size(236, 28)
@@ -454,7 +454,7 @@ Partial Class Form5
         '
         Me.label8.AutoSize = True
         Me.label8.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label8.ForeColor = System.Drawing.Color.Black
         Me.label8.Location = New System.Drawing.Point(309, 303)
         Me.label8.Name = "label8"
         Me.label8.Size = New System.Drawing.Size(138, 28)
@@ -465,7 +465,7 @@ Partial Class Form5
         '
         Me.label7.AutoSize = True
         Me.label7.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label7.ForeColor = System.Drawing.Color.Black
         Me.label7.Location = New System.Drawing.Point(309, 189)
         Me.label7.Name = "label7"
         Me.label7.Size = New System.Drawing.Size(166, 28)
@@ -605,7 +605,7 @@ Partial Class Form5
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(309, 246)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(138, 28)

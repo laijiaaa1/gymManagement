@@ -22,11 +22,11 @@ Partial Class Form6
     '請勿使用程式碼編輯器進行修改。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.label4 = New System.Windows.Forms.Label()
         Me.label2 = New System.Windows.Forms.Label()
         Me.label1 = New System.Windows.Forms.Label()
@@ -376,7 +376,7 @@ Partial Class Form6
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label21.ForeColor = System.Drawing.Color.Black
         Me.Label21.Location = New System.Drawing.Point(68, 488)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(138, 28)
@@ -440,7 +440,7 @@ Partial Class Form6
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label16.ForeColor = System.Drawing.Color.Black
         Me.Label16.Location = New System.Drawing.Point(68, 419)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(166, 28)
@@ -463,7 +463,7 @@ Partial Class Form6
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label13.ForeColor = System.Drawing.Color.Black
         Me.Label13.Location = New System.Drawing.Point(69, 212)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(194, 28)
@@ -472,16 +472,16 @@ Partial Class Form6
         '
         'dataGridView1
         '
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
         Me.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Check, Me.Campus, Me.EquipmentName, Me.EquipmentID, Me.Quantity, Me.ApplyTime, Me.RepairTime, Me.RenterID})
         Me.dataGridView1.Location = New System.Drawing.Point(638, 70)
         Me.dataGridView1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.dataGridView1.Name = "dataGridView1"
         Me.dataGridView1.RowHeadersWidth = 51
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.dataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.dataGridView1.RowsDefaultCellStyle = DataGridViewCellStyle3
         Me.dataGridView1.RowTemplate.Height = 27
         Me.dataGridView1.Size = New System.Drawing.Size(542, 493)
         Me.dataGridView1.TabIndex = 134
@@ -497,8 +497,8 @@ Partial Class Form6
         'Campus
         '
         Me.Campus.DataPropertyName = "Campus"
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Arial monospaced for SAP", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Campus.DefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Arial monospaced for SAP", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Campus.DefaultCellStyle = DataGridViewCellStyle2
         Me.Campus.HeaderText = "Campus"
         Me.Campus.MinimumWidth = 6
         Me.Campus.Name = "Campus"
@@ -559,7 +559,7 @@ Partial Class Form6
         '
         Me.label15.AutoSize = True
         Me.label15.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label15.ForeColor = System.Drawing.Color.Black
         Me.label15.Location = New System.Drawing.Point(69, 74)
         Me.label15.Name = "label15"
         Me.label15.Size = New System.Drawing.Size(110, 28)
@@ -593,7 +593,7 @@ Partial Class Form6
         '
         Me.label9.AutoSize = True
         Me.label9.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label9.ForeColor = System.Drawing.Color.Black
         Me.label9.Location = New System.Drawing.Point(69, 350)
         Me.label9.Name = "label9"
         Me.label9.Size = New System.Drawing.Size(152, 28)
@@ -614,7 +614,7 @@ Partial Class Form6
         '
         Me.label7.AutoSize = True
         Me.label7.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label7.ForeColor = System.Drawing.Color.Black
         Me.label7.Location = New System.Drawing.Point(69, 143)
         Me.label7.Name = "label7"
         Me.label7.Size = New System.Drawing.Size(222, 28)
@@ -637,7 +637,7 @@ Partial Class Form6
         '
         Me.label8.AutoSize = True
         Me.label8.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label8.ForeColor = System.Drawing.Color.Black
         Me.label8.Location = New System.Drawing.Point(69, 281)
         Me.label8.Name = "label8"
         Me.label8.Size = New System.Drawing.Size(124, 28)
@@ -713,7 +713,7 @@ Partial Class Form6
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label20.ForeColor = System.Drawing.Color.Black
         Me.Label20.Location = New System.Drawing.Point(72, 480)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(138, 28)
@@ -756,7 +756,7 @@ Partial Class Form6
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label19.ForeColor = System.Drawing.Color.Black
         Me.Label19.Location = New System.Drawing.Point(72, 72)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(110, 28)
@@ -789,7 +789,7 @@ Partial Class Form6
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label10.ForeColor = System.Drawing.Color.Black
         Me.Label10.Location = New System.Drawing.Point(72, 412)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(166, 28)
@@ -810,7 +810,7 @@ Partial Class Form6
         '
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label17.ForeColor = System.Drawing.Color.Black
         Me.Label17.Location = New System.Drawing.Point(72, 344)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(152, 28)
@@ -821,7 +821,7 @@ Partial Class Form6
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label18.ForeColor = System.Drawing.Color.Black
         Me.Label18.Location = New System.Drawing.Point(72, 276)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(124, 28)
@@ -844,7 +844,7 @@ Partial Class Form6
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label14.ForeColor = System.Drawing.Color.Black
         Me.Label14.Location = New System.Drawing.Point(72, 208)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(138, 28)
@@ -853,16 +853,16 @@ Partial Class Form6
         '
         'dataGridView2
         '
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.dataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.dataGridView2.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle4
         Me.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Check1, Me.DataGridViewTextBoxColumn1, Me.VenueName, Me.VenueID, Me.Problem, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.RenterI})
         Me.dataGridView2.Location = New System.Drawing.Point(627, 83)
         Me.dataGridView2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.dataGridView2.Name = "dataGridView2"
         Me.dataGridView2.RowHeadersWidth = 51
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
-        Me.dataGridView2.RowsDefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(136, Byte))
+        Me.dataGridView2.RowsDefaultCellStyle = DataGridViewCellStyle5
         Me.dataGridView2.RowTemplate.Height = 27
         Me.dataGridView2.Size = New System.Drawing.Size(542, 480)
         Me.dataGridView2.TabIndex = 179
@@ -952,7 +952,7 @@ Partial Class Form6
         '
         Me.label5.AutoSize = True
         Me.label5.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.label5.ForeColor = System.Drawing.Color.Black
         Me.label5.Location = New System.Drawing.Point(72, 140)
         Me.label5.Name = "label5"
         Me.label5.Size = New System.Drawing.Size(166, 28)
@@ -988,7 +988,7 @@ Partial Class Form6
         Me.label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.label6.Location = New System.Drawing.Point(666, 51)
         Me.label6.Name = "label6"
-        Me.label6.Size = New System.Drawing.Size(377, 39)
+        Me.label6.Size = New System.Drawing.Size(377, 38)
         Me.label6.TabIndex = 127
         Me.label6.Text = "Maintenance Record"
         '

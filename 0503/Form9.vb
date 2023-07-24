@@ -49,7 +49,7 @@ Public Class Form9
 
     Private Sub TabPage2_Click(sender As Object, e As EventArgs) Handles TabPage2.Click
         Dim table As New DataTable()
-        Dim adapter As New MySqlDataAdapter("SELECT * FROM venue", connection)
+        Dim adapter As New MySqlDataAdapter("SELECT Campus,VenueName,VenueID,Quantity,RentalDateTime,ReturnDateTime,name,RenterID,phone,major FROM (venue LEFT OUTER JOIN user ON venue.RenterID=user.id)", connection)
         adapter.Fill(table)
         DataGridView2.DataSource = table
     End Sub
@@ -120,5 +120,9 @@ Public Class Form9
         Dim Form7 As New Form7()
         Form7.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub DataGridView2_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView2.CellContentClick
+
     End Sub
 End Class

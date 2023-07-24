@@ -157,7 +157,7 @@ Partial Class Form8
         'textBox8
         '
         Me.textBox8.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.textBox8.Location = New System.Drawing.Point(557, 546)
+        Me.textBox8.Location = New System.Drawing.Point(557, 470)
         Me.textBox8.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textBox8.Name = "textBox8"
         Me.textBox8.Size = New System.Drawing.Size(201, 34)
@@ -166,7 +166,7 @@ Partial Class Form8
         'textBox7
         '
         Me.textBox7.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.textBox7.Location = New System.Drawing.Point(557, 449)
+        Me.textBox7.Location = New System.Drawing.Point(557, 397)
         Me.textBox7.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textBox7.Name = "textBox7"
         Me.textBox7.Size = New System.Drawing.Size(201, 34)
@@ -175,7 +175,7 @@ Partial Class Form8
         'textBox6
         '
         Me.textBox6.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.textBox6.Location = New System.Drawing.Point(557, 353)
+        Me.textBox6.Location = New System.Drawing.Point(557, 324)
         Me.textBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textBox6.Name = "textBox6"
         Me.textBox6.Size = New System.Drawing.Size(201, 34)
@@ -184,7 +184,7 @@ Partial Class Form8
         'textBox5
         '
         Me.textBox5.Font = New System.Drawing.Font("微軟正黑體", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.textBox5.Location = New System.Drawing.Point(557, 257)
+        Me.textBox5.Location = New System.Drawing.Point(557, 251)
         Me.textBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.textBox5.Name = "textBox5"
         Me.textBox5.Size = New System.Drawing.Size(201, 34)
@@ -194,8 +194,8 @@ Partial Class Form8
         '
         Me.label7.AutoSize = True
         Me.label7.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.label7.Location = New System.Drawing.Point(328, 554)
+        Me.label7.ForeColor = System.Drawing.Color.Black
+        Me.label7.Location = New System.Drawing.Point(328, 470)
         Me.label7.Name = "label7"
         Me.label7.Size = New System.Drawing.Size(138, 28)
         Me.label7.TabIndex = 69
@@ -205,8 +205,8 @@ Partial Class Form8
         '
         Me.label13.AutoSize = True
         Me.label13.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.label13.Location = New System.Drawing.Point(328, 455)
+        Me.label13.ForeColor = System.Drawing.Color.Black
+        Me.label13.Location = New System.Drawing.Point(328, 397)
         Me.label13.Name = "label13"
         Me.label13.Size = New System.Drawing.Size(194, 28)
         Me.label13.TabIndex = 68
@@ -216,8 +216,8 @@ Partial Class Form8
         '
         Me.label12.AutoSize = True
         Me.label12.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.label12.Location = New System.Drawing.Point(328, 257)
+        Me.label12.ForeColor = System.Drawing.Color.Black
+        Me.label12.Location = New System.Drawing.Point(328, 251)
         Me.label12.Name = "label12"
         Me.label12.Size = New System.Drawing.Size(194, 28)
         Me.label12.TabIndex = 67
@@ -227,8 +227,8 @@ Partial Class Form8
         '
         Me.label11.AutoSize = True
         Me.label11.Font = New System.Drawing.Font("Arial monospaced for SAP", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.label11.Location = New System.Drawing.Point(328, 355)
+        Me.label11.ForeColor = System.Drawing.Color.Black
+        Me.label11.Location = New System.Drawing.Point(328, 324)
         Me.label11.Name = "label11"
         Me.label11.Size = New System.Drawing.Size(82, 28)
         Me.label11.TabIndex = 66

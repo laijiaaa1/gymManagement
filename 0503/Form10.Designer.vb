@@ -39,10 +39,16 @@ Partial Class Form10
         Me.label3 = New System.Windows.Forms.Label()
         Me.label1 = New System.Windows.Forms.Label()
         Me.panel2 = New System.Windows.Forms.Panel()
+        Me.pictureBox5 = New System.Windows.Forms.PictureBox()
         Me.label6 = New System.Windows.Forms.Label()
         Me.panel1 = New System.Windows.Forms.Panel()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
+        Me.pictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.pictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.pictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Button5 = New System.Windows.Forms.Button()
@@ -51,6 +57,7 @@ Partial Class Form10
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
         Me.EquipmentName = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.EquipmentID = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -79,6 +86,7 @@ Partial Class Form10
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.DomainUpDown3 = New System.Windows.Forms.DomainUpDown()
         Me.DomainUpDown2 = New System.Windows.Forms.DomainUpDown()
         Me.DomainUpDown1 = New System.Windows.Forms.DomainUpDown()
@@ -89,33 +97,25 @@ Partial Class Form10
         Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
         Me.PrintPreviewDialog1 = New System.Windows.Forms.PrintPreviewDialog()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.pictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
-        Me.pictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.pictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.pictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.pictureBox1 = New System.Windows.Forms.PictureBox()
         Me.panel2.SuspendLayout()
+        CType(Me.pictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panel1.SuspendLayout()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.Chart1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
         CType(Me.Chart2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'dataGridViewImageColumn1
@@ -181,6 +181,17 @@ Partial Class Form10
         Me.panel2.Size = New System.Drawing.Size(249, 128)
         Me.panel2.TabIndex = 1
         '
+        'pictureBox5
+        '
+        Me.pictureBox5.Image = Global._0503.My.Resources.Resources.icons8_warehouse_50
+        Me.pictureBox5.Location = New System.Drawing.Point(55, 27)
+        Me.pictureBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.pictureBox5.Name = "pictureBox5"
+        Me.pictureBox5.Size = New System.Drawing.Size(112, 57)
+        Me.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pictureBox5.TabIndex = 4
+        Me.pictureBox5.TabStop = False
+        '
         'label6
         '
         Me.label6.AutoSize = True
@@ -188,7 +199,7 @@ Partial Class Form10
         Me.label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.label6.Location = New System.Drawing.Point(675, 43)
         Me.label6.Name = "label6"
-        Me.label6.Size = New System.Drawing.Size(337, 39)
+        Me.label6.Size = New System.Drawing.Size(337, 38)
         Me.label6.TabIndex = 176
         Me.label6.Text = "Inventory Record"
         '
@@ -234,6 +245,59 @@ Partial Class Form10
         Me.Label16.Size = New System.Drawing.Size(166, 23)
         Me.Label16.TabIndex = 13
         Me.Label16.Text = "Administrator"
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.Image = Global._0503.My.Resources.Resources.圖片11
+        Me.PictureBox9.Location = New System.Drawing.Point(65, 674)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(114, 50)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox9.TabIndex = 12
+        Me.PictureBox9.TabStop = False
+        '
+        'PictureBox13
+        '
+        Me.PictureBox13.Image = Global._0503.My.Resources.Resources.圖片2
+        Me.PictureBox13.Location = New System.Drawing.Point(67, 552)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(112, 50)
+        Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox13.TabIndex = 11
+        Me.PictureBox13.TabStop = False
+        '
+        'pictureBox3
+        '
+        Me.pictureBox3.Image = Global._0503.My.Resources.Resources.圖片1
+        Me.pictureBox3.Location = New System.Drawing.Point(69, 172)
+        Me.pictureBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.pictureBox3.Name = "pictureBox3"
+        Me.pictureBox3.Size = New System.Drawing.Size(112, 57)
+        Me.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pictureBox3.TabIndex = 7
+        Me.pictureBox3.TabStop = False
+        '
+        'pictureBox4
+        '
+        Me.pictureBox4.Image = Global._0503.My.Resources.Resources._25
+        Me.pictureBox4.Location = New System.Drawing.Point(69, 301)
+        Me.pictureBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.pictureBox4.Name = "pictureBox4"
+        Me.pictureBox4.Size = New System.Drawing.Size(112, 57)
+        Me.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pictureBox4.TabIndex = 3
+        Me.pictureBox4.TabStop = False
+        '
+        'pictureBox1
+        '
+        Me.pictureBox1.Image = Global._0503.My.Resources.Resources._231
+        Me.pictureBox1.Location = New System.Drawing.Point(69, 43)
+        Me.pictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.pictureBox1.Name = "pictureBox1"
+        Me.pictureBox1.Size = New System.Drawing.Size(112, 57)
+        Me.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pictureBox1.TabIndex = 0
+        Me.pictureBox1.TabStop = False
         '
         'TabControl1
         '
@@ -367,6 +431,17 @@ Partial Class Form10
         Me.Button2.TabIndex = 136
         Me.Button2.Text = "Reload"
         Me.Button2.UseVisualStyleBackColor = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Image = Global._0503.My.Resources.Resources.icons8_trash_32
+        Me.PictureBox6.Location = New System.Drawing.Point(640, 238)
+        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(46, 46)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox6.TabIndex = 135
+        Me.PictureBox6.TabStop = False
         '
         'DataGridView2
         '
@@ -687,6 +762,17 @@ Partial Class Form10
         Me.ComboBox1.Size = New System.Drawing.Size(222, 31)
         Me.ComboBox1.TabIndex = 73
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global._0503.My.Resources.Resources.icons8_trash_32
+        Me.PictureBox2.Location = New System.Drawing.Point(636, 236)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(51, 53)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 126
+        Me.PictureBox2.TabStop = False
+        '
         'DomainUpDown3
         '
         Me.DomainUpDown3.Font = New System.Drawing.Font("Arial monospaced for SAP", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -767,28 +853,6 @@ Partial Class Form10
         Me.PrintPreviewDialog1.Name = "PrintPreviewDialog1"
         Me.PrintPreviewDialog1.Visible = False
         '
-        'PictureBox6
-        '
-        Me.PictureBox6.Image = Global._0503.My.Resources.Resources.icons8_trash_32
-        Me.PictureBox6.Location = New System.Drawing.Point(640, 238)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(46, 46)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox6.TabIndex = 135
-        Me.PictureBox6.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global._0503.My.Resources.Resources.icons8_trash_32
-        Me.PictureBox2.Location = New System.Drawing.Point(636, 236)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(51, 53)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 126
-        Me.PictureBox2.TabStop = False
-        '
         'pictureBox10
         '
         Me.pictureBox10.Image = Global._0503.My.Resources.Resources.close
@@ -799,70 +863,6 @@ Partial Class Form10
         Me.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.pictureBox10.TabIndex = 177
         Me.pictureBox10.TabStop = False
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.Image = Global._0503.My.Resources.Resources.圖片11
-        Me.PictureBox9.Location = New System.Drawing.Point(65, 674)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(114, 50)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox9.TabIndex = 12
-        Me.PictureBox9.TabStop = False
-        '
-        'PictureBox13
-        '
-        Me.PictureBox13.Image = Global._0503.My.Resources.Resources.圖片2
-        Me.PictureBox13.Location = New System.Drawing.Point(67, 552)
-        Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(112, 50)
-        Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox13.TabIndex = 11
-        Me.PictureBox13.TabStop = False
-        '
-        'pictureBox3
-        '
-        Me.pictureBox3.Image = Global._0503.My.Resources.Resources.圖片1
-        Me.pictureBox3.Location = New System.Drawing.Point(69, 172)
-        Me.pictureBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.pictureBox3.Name = "pictureBox3"
-        Me.pictureBox3.Size = New System.Drawing.Size(112, 57)
-        Me.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pictureBox3.TabIndex = 7
-        Me.pictureBox3.TabStop = False
-        '
-        'pictureBox5
-        '
-        Me.pictureBox5.Image = Global._0503.My.Resources.Resources.icons8_warehouse_50
-        Me.pictureBox5.Location = New System.Drawing.Point(55, 27)
-        Me.pictureBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.pictureBox5.Name = "pictureBox5"
-        Me.pictureBox5.Size = New System.Drawing.Size(112, 57)
-        Me.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pictureBox5.TabIndex = 4
-        Me.pictureBox5.TabStop = False
-        '
-        'pictureBox4
-        '
-        Me.pictureBox4.Image = Global._0503.My.Resources.Resources._25
-        Me.pictureBox4.Location = New System.Drawing.Point(69, 301)
-        Me.pictureBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.pictureBox4.Name = "pictureBox4"
-        Me.pictureBox4.Size = New System.Drawing.Size(112, 57)
-        Me.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pictureBox4.TabIndex = 3
-        Me.pictureBox4.TabStop = False
-        '
-        'pictureBox1
-        '
-        Me.pictureBox1.Image = Global._0503.My.Resources.Resources._231
-        Me.pictureBox1.Location = New System.Drawing.Point(69, 43)
-        Me.pictureBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.pictureBox1.Name = "pictureBox1"
-        Me.pictureBox1.Size = New System.Drawing.Size(112, 57)
-        Me.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pictureBox1.TabIndex = 0
-        Me.pictureBox1.TabStop = False
         '
         'Form10
         '
@@ -880,26 +880,26 @@ Partial Class Form10
         Me.Text = "Form10"
         Me.panel2.ResumeLayout(False)
         Me.panel2.PerformLayout()
+        CType(Me.pictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panel1.ResumeLayout(False)
         Me.panel1.PerformLayout()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
         CType(Me.Chart1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
         Me.TabPage2.PerformLayout()
         CType(Me.Chart2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

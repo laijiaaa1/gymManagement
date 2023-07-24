@@ -183,4 +183,8 @@ Public Class Form8
             MessageBox.Show(ex.Message)
         End Try
     End Sub
+
+    Private Sub textBox5_TextChanged(sender As Object, e As EventArgs) Handles textBox5.TextChanged
+
+    End Sub
 End Class
